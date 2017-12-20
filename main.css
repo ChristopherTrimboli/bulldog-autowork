@@ -1,0 +1,114 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 70px;
+    position: relative;
+    min-height: 100%;
+    background-color: #cccccc;
+}
+.footer {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 100%;
+    padding-top: 25px;
+    background-color: #FFFFFF;
+}
+h2 {
+    margin-bottom: 10px;
+    color: #000;
+}
+.fab {
+    margin-bottom: 10px;
+}
+#map {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.jumbotron1 {
+    background-image: url("images/hr2.JPG");
+    background-size: cover;
+}
+.jumbotron2 {
+    background-image: url("images/hr2.JPG");
+    background-size: cover;
+}
+.jumbotron3 {
+    background-image: url("images/shop1.jpg");
+    background-size: cover;
+}
+#logo {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 60px;
+    padding-right: 30px;
+}
+.navbar {
+    font-size: larger;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 5;
+}
+.nav-item {
+    font-size: large;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 5px;
+    line-height: 50%;
+    text-align: center;
+    float: left;
+    display: block;
+    background-color: #cccccc;
+    color: black;
+}
+.nav-link {
+    color: black;
+}
+.nav-item:hover {
+    background-color: rgba(175, 115, 0, 0.30);
+    border-color: #000000;
+    border-width: thin;
+    border-radius: 10px;
+}
+#current {
+    background-color: rgba(232, 37, 37, 0.30);
+    border-color: #000000;
+    border-width: thin;
+    border-radius: 10px;
+}
+.dropdown-item:hover {
+    background-color: rgba(232, 37, 37, 0.30);
+    background: #D3D3D3;
+    border-color: #000000;
+    border-width: thin;
+    border-radius: 10px;
+}
+.dropdown-item {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.collapse {
+    background-color: white;
+}
+.nav-link {
+    padding: 10px;
+    color: #000000;
+}
+.col {
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+#social {
+    padding-bottom: 40px;
+}
