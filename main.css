@@ -1,34 +1,58 @@
 html {
     position: relative;
     min-height: 100%;
+    font-family: Roboto, sans-serif;
+    overflow-wrap:break-word;
 }
 body {
-    padding-top: 70px;
+    margin-top: 70px;
     position: relative;
     min-height: 100%;
-    background-color: #cccccc;
+    background-color: rgba(30,30,30,1);
+    font-family: Roboto, sans-serif;
+    text-align: center
+}
+.btn {
+    float: right;
 }
 .footer {
     width: 100%;
     background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 10px;
+}
+.card {
+    border-radius: 5px;
+}
+.card-title {
+    text-align: center;
 }
 .container {
     width: 100%;
-    padding-top: 25px;
-    background-color: #FFFFFF;
+    height: 100%;
 }
-h2 {
-    margin-bottom: 10px;
-    color: #000;
+.card-img-top {
+    height: 120px;
 }
-.fab {
-    margin-bottom: 10px;
+.d-block {
+    height: 400px;
+}
+.img-responsive {
+    max-height: 200px;
+    max-width: 318px;
+}
+#search {
+    padding-left: 400px;
 }
 #map {
-    padding-top: 40px;
-    padding-bottom: 50px;
+
 }
-.jumbotron1 {
+#tiresjumbo{
+    background-image: url("images/tires.jpg");
+    background-size: cover;
+    height: 200px;
+}
+#frontjumbo1 {
     background-image: url("images/hr2.JPG");
     background-size: cover;
 }
@@ -40,75 +64,139 @@ h2 {
     background-image: url("images/shop1.jpg");
     background-size: cover;
 }
+.tires {
+    height: 120px;
+    width: 250px;
+    align-self: center;
+    border-radius: 5px;
+
+}
+h5 {
+    font-size: larger;
+}
 #logo {
-    height: auto;
-    width: auto;
-    max-width: 100px;
+    height: 100%;
+    width: 100%;
+    max-width: 60px;
     max-height: 60px;
-    padding-right: 30px;
+}
+#logoname {
+    padding-left: 12px;
+    padding-right: 40px;
 }
 .navbar {
-    font-size: larger;
-    padding-right: 50px;
-    margin-bottom: 50px;
     position: fixed;
     top: 0;
     width: 100%;
     height: 70px;
-    z-index: 5;
+    z-index: 1000;
+}
+.navbar-brand {
+    padding-top: 0;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+}
+ h5 {
+    color: black;
 }
 .nav-item {
-    font-size: large;
-    font-weight: bold;
     padding-right: 30px;
     padding-left: 30px;
-    margin: 5px;
-    line-height: 50%;
     text-align: center;
-    float: left;
-    display: block;
-    background-color: #cccccc;
+    background-color: rgba(36, 33, 43, 0.25);
     color: black;
-}
-.nav-link {
-    color: black;
+    height: 45px;
+    border-radius: 50px;
+    width: 180px;
+    margin: 3px;
+
 }
 .nav-item:hover {
-    background-color: rgba(175, 115, 0, 0.30);
-    border-color: #000000;
-    border-width: thin;
-    border-radius: 10px;
+    background-color: rgba(175, 115, 0, 0.4);
 }
 #current {
-    background-color: rgba(232, 37, 37, 0.30);
+    background-color: rgba(255, 5, 4, 0.75);
     border-color: #000000;
-    border-width: thin;
-    border-radius: 10px;
 }
 .dropdown-item:hover {
-    background-color: rgba(232, 37, 37, 0.30);
-    background: #D3D3D3;
+    background-color: rgba(232, 37, 37, 0.7);
     border-color: #000000;
     border-width: thin;
     border-radius: 10px;
 }
 .dropdown-item {
-    padding: 20px;
-    background-color: #FFFFFF;
+    text-align: center;
+    width: 250px;
 }
-.collapse {
-    background-color: white;
+.dropdown-menu {
+    max-height:400px;
 }
 .nav-link {
     padding: 10px;
     color: #000000;
 }
-.col {
-    text-align: center;
+@media screen and (max-width: 800px) {
+    footer {
+        font-size: 0.7em;
+    }
+    #logoname {
+        font-size: 0.9em;
+    }
+    #navbarSupportedContent {
+        width: 33em;
+        background-color: #f8f9fa;
+        padding: 2em;
+        text-align: center;
+    }
+    .navbar-toggler {
+        position: fixed;
+        right: 0;
+    }
+    .nav-item {
+        width: 200px;
+    }
+    .dropdown-menu.show {
+        max-height:400px;
+    }
+    .d-block{
+        height: 200px;
+    }
+    .btn {
+        margin-top: 10px;
+        float: none;
+    }
+
 }
-.row {
-    text-align: center;
+@media screen and (max-width: 991px) { /* breakpoint */
+    .navbar-toggler {
+        position: fixed;
+        right: 0;
+        margin-right: 10px;
+    }
+    #navbarSupportedContent {
+        background-color: #f8f9fa;
+        margin-left: 0;
+        border-radius: 20px;
+        text-align: center;
+        padding: 2em;
+    }
+    .navbar-nav {
+        text-align: center;
+        display: inline-block;
+        margin-top: -20px;
+    }
+    .nav-item {
+        width: 300px;
+    }
 }
-#social {
-    padding-bottom: 40px;
+@media screen and (max-width: 1150px) { /* adjuster */
+    #logoname {
+        padding-right: 60px
+    }
+    .dropdown-menu{
+        max-height:400px;
+        width: 250px;
+    }
 }

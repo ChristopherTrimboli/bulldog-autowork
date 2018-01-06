@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
     <link rel="manifest" href="images/icons/manifest.json">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
@@ -17,23 +17,23 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><img id="logo" class="img-rounded" src="images/logo.png"><span id="logoname">Bulldog Autoworks Ltd.</span></a>
+    <a class="navbar-brand" href="index.html"><img id="logo" class="img-rounded" src="images/logo.png" alt="Bulldog Auto"><span id="logoname">Bulldog Autoworks Ltd.</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html"><h5>Home</h5></a>
-            </li>
             <li id="current" class="nav-item active">
-                <a class="nav-link" href="contact.html"><h5>Contact</h5></a>
+                <a class="nav-link" href="index.html"><h4>Home</h4></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tires.html"><h5>Tires</h5></a>
+                <a class="nav-link" href="contact.html"><h4>Contact</h4></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tires.html"><h4 class="display-7">Tires</h4></a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h5>Services&nbsp;<i class="fas fa-sort-down"></i></h5></a>
+                <a class="nav-link" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h4>Services</h4></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="oilchange.html">Oil Change</a>
                     <a class="dropdown-item" href="tuneup.html">Tune Up</a>
@@ -47,44 +47,12 @@
                 </div>
             </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
 </nav>
-
-<div class="container" style="padding-right: 40px; padding-left: 40px; background-color: white">
-    <div class="row">
-        <div class="col-6">
-            <br>
-            <h2>Contact Info</h2>
-            <hr>
-            <p><i class="fas fa-phone"></i><span style="font-weight: bold"> Phone</span></p>
-            <p><a href="tel:1-250-391-4969">250-391-4069</a></p>
-            <p><i class="far fa-envelope"></i><span style="font-weight: bold"> Email</span></p>
-            <p><a href="mailto:bulldogautoworks@hotmail.ca">bulldogautoworks@hotmail.ca</a></p>
-            <p><i class="far fa-address-card"></i><span style="font-weight: bold"> Address</span></p>
-            <p>#114 2920 Jacklin Rd. Langford, BC V9B 3Y5</p>
-            <hr>
-        </div>
-        <div class="col-6">
-            <br>
-            <h2 style="overflow-wrap: normal">Hours of Operation</h2>
-            <hr>
-            <p><span style="font-weight: bold">Monday - Friday</span></p>
-            <p>8:00am - 5:30pm</p>
-            <p><span style="font-weight: bold">Saturday</span></p>
-            <p>10:00am - 4:00pm</p>
-            <p><span style="font-weight: bold">Sunday</span></p>
-            <p>Closed</p>
-            <hr>
-        </div>
-    </div>
-    <div id="map" class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.6736939477273!2d-123.51280638413824!3d48.443602137775486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f0d05452a30e9%3A0x1d540683750faf9a!2sBulldog+Auto+Works+Ltd!5e0!3m2!1sen!2sus!4v1513641141907" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen>
-        </iframe>
-    </div>
-    <hr>
-    <br>
-    <br>
-</div>
 
 <footer style="background-color: #f5f5f5" class="footer fixed-bottom">
     <div style="background-color: #f5f5f5" class="container">

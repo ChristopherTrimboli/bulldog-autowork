@@ -23,10 +23,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li id="current" class="nav-item active">
                 <a class="nav-link" href="index.html"><h5>Home</h5></a>
             </li>
-            <li id="current" class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="contact.html"><h5>Contact</h5></a>
             </li>
             <li class="nav-item">
@@ -49,40 +49,104 @@
         </ul>
     </div>
 </nav>
-
-<div class="container" style="padding-right: 40px; padding-left: 40px; background-color: white">
+<div style="background-color: white" class="container">
     <div class="row">
-        <div class="col-6">
-            <br>
-            <h2>Contact Info</h2>
-            <hr>
-            <p><i class="fas fa-phone"></i><span style="font-weight: bold"> Phone</span></p>
-            <p><a href="tel:1-250-391-4969">250-391-4069</a></p>
-            <p><i class="far fa-envelope"></i><span style="font-weight: bold"> Email</span></p>
-            <p><a href="mailto:bulldogautoworks@hotmail.ca">bulldogautoworks@hotmail.ca</a></p>
-            <p><i class="far fa-address-card"></i><span style="font-weight: bold"> Address</span></p>
-            <p>#114 2920 Jacklin Rd. Langford, BC V9B 3Y5</p>
-            <hr>
-        </div>
-        <div class="col-6">
-            <br>
-            <h2 style="overflow-wrap: normal">Hours of Operation</h2>
-            <hr>
-            <p><span style="font-weight: bold">Monday - Friday</span></p>
-            <p>8:00am - 5:30pm</p>
-            <p><span style="font-weight: bold">Saturday</span></p>
-            <p>10:00am - 4:00pm</p>
-            <p><span style="font-weight: bold">Sunday</span></p>
-            <p>Closed</p>
-            <hr>
+        <div class="col lg-12 md-12 sm-12 xs-12">
+            <img style="width: 100%; max-height: 200px;" src="images/engineoil.jpg">
         </div>
     </div>
-    <div id="map" class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.6736939477273!2d-123.51280638413824!3d48.443602137775486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f0d05452a30e9%3A0x1d540683750faf9a!2sBulldog+Auto+Works+Ltd!5e0!3m2!1sen!2sus!4v1513641141907" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen>
-        </iframe>
+    <div class="row">
+        <div class="col">
+            <br>
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <h4 class="card-title">Our Oil Change Checklist</h4>
+                    <p class="card-text">We go above and beyond simply changing your oil fluids.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Oil Change</li>
+                    <li class="list-group-item">Fluid Check</li>
+                    <li class="list-group-item">Oil Filter</li>
+                    <li class="list-group-item">Check Lights</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <hr>
     <br>
+<div class="row">
+    <div class="col lg-3 md-4 sm-12 xs-12">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="images/changeoil.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Oil Change</h4>
+                <p style="min-height: 97px;" class="card-text">Our expert mechanics change your oil fluid.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Synthetic or Regular</li>
+                <li class="list-group-item">100% Green Oil Recycling</li>
+                <li class="list-group-item">Quality Oil Brands</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col lg-3 md-4 sm-12 xs-12">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="images/fluids.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Check Fluids</h4>
+                <p class="card-text">We check all of your vehicle fluids to make sure you are topped-up and ready to go!</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col lg-3 md-4 sm-12 xs-12">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="images/oilfilter.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Change Oil Filter</h4>
+                <p class="card-text">We change out your old oil filter and install a new filter.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+    <div class="col lg-3 md-4 sm-12 xs-12">
+        <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="images/lights.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Check Lights</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+</div>
     <br>
 </div>
 
