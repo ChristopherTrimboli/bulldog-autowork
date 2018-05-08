@@ -12,8 +12,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="main.css">
     <title>Bulldog Autoworks Ltd.</title>
-</head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114288411-1"></script>
+    <script async>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'UA-114288411-1');
+    </script>
+</head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,76 +45,77 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="oilchange.html">Oil Change</a>
                     <a class="dropdown-item" href="tuneup.html">Tune Up</a>
-                    <a class="dropdown-item" href="tirechange.html">Tire Change</a>
+                    <a class="dropdown-item" href="tirechange.html">Tire Services</a>
                     <a class="dropdown-item" href="transmission.html">Transmission Service</a>
                     <a class="dropdown-item" href="cooling.html">Cooling System</a>
                     <a class="dropdown-item" href="brakes.html">Brake Service</a>
                     <a class="dropdown-item" href="exhaust.html">Exhaust</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Get a Quote</a>
+                    <a class="dropdown-item" href="engineReplacement.html">Engine Replacements</a>
                 </div>
             </li>
         </ul>
     </div>
 </nav>
 
-<div class="container" style="padding-right: 40px; padding-left: 40px; background-color: white">
-    <div class="row">
+<div class="container" style="padding-right: 40px; padding-left: 40px; background-color: white; ">
+    <div class="row" style="padding-top: 2px">
         <div class="col-6">
             <br>
             <h2>Contact Info</h2>
             <hr>
-            <p><i class="fas fa-phone"></i><span style="font-weight: bold"> Phone</span></p>
+            <p class="lead" style="color: black;"><i class="fas fa-phone"></i> Phone</p>
             <p><a href="tel:1-250-391-4969">250-391-4069</a></p>
-            <p><i class="far fa-envelope"></i><span style="font-weight: bold"> Email</span></p>
+
+            <p class="lead" style="color: black;"><i class="far fa-envelope"></i> Email</p>
             <p><a href="mailto:bulldogautoworks@hotmail.ca">bulldogautoworks@hotmail.ca</a></p>
-            <p><i class="far fa-address-card"></i><span style="font-weight: bold"> Address</span></p>
+
+            <p class="lead" style="color: black;"><i class="far fa-address-card"></i> Address</p>
             <p>#114 2920 Jacklin Rd. Langford, BC V9B 3Y5</p>
-            <hr>
         </div>
         <div class="col-6">
             <br>
             <h2 style="overflow-wrap: normal">Hours of Operation</h2>
             <hr>
-            <p><span style="font-weight: bold">Monday - Friday</span></p>
+            <p class="lead" style="color: black;">Monday - Friday</p>
             <p>8:00am - 5:30pm</p>
-            <p><span style="font-weight: bold">Saturday</span></p>
+            <p class="lead" style="color: black;">Saturday</p>
             <p>10:00am - 4:00pm</p>
-            <p><span style="font-weight: bold">Sunday</span></p>
+            <p class="lead" style="color: black;">Sunday</p>
             <p>Closed</p>
-            <hr>
         </div>
     </div>
+    <br>
+    <h2>Location</h2>
     <div id="map" class="row">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.6736939477273!2d-123.51280638413824!3d48.443602137775486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f0d05452a30e9%3A0x1d540683750faf9a!2sBulldog+Auto+Works+Ltd!5e0!3m2!1sen!2sus!4v1513641141907" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
     </div>
-    <hr>
     <br>
+    <hr>
     <br>
 </div>
 
-<footer style="background-color: #f5f5f5" class="footer fixed-bottom">
-    <div style="background-color: #f5f5f5" class="container">
+<footer class="footer fixed-bottom">
+    <div class="container">
         <div class="row">
             <div class="col-4">
                 <a href="https://www.facebook.com/Bulldog-Autoworks-Ltd-344109025689210/"><i style="color:#3B5998" class="fab fa-facebook-square fa-2x"></i></a>
                 <a href="https://www.facebook.com/Bulldog-Autoworks-Ltd-344109025689210/"><i style="color:#00aced" class="fab fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.facebook.com/Bulldog-Autoworks-Ltd-344109025689210/"><i style="color:#d34836" class="fab fa-google-plus-square fa-2x"></i></a>
+                <a href="http://www.google.com/search?q=Bulldog+Autoworks+Ltd."><i style="color:#d34836" class="fab fa-google-plus-square fa-2x"></i></a>
             </div>
             <div class="col-4">
-                Chris Eddy <i class="far fa-copyright"></i> 2017
+                Bulldog Autoworks Ltd. <i class="far fa-copyright"></i> 2018
             </div>
             <div class="col-4">
-                Alpha v1.0
+                v1.0 |<a href="webdevcontact.html" id="webdev"> Chris</a>
             </div>
         </div>
     </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>

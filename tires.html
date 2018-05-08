@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="main.css">
     <title>Bulldog Autoworks Ltd.</title>
+    <style>
+        .card {
+            min-height: 250px;
+        }
+        .tirecard {
+            min-height: 380px;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114288411-1"></script>
+    <script async>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114288411-1');
+    </script>
 </head>
 
 <body>
@@ -37,13 +54,12 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="oilchange.html">Oil Change</a>
                     <a class="dropdown-item" href="tuneup.html">Tune Up</a>
-                    <a class="dropdown-item" href="tirechange.html">Tire Change</a>
+                    <a class="dropdown-item" href="tirechange.html">Tire Services</a>
                     <a class="dropdown-item" href="transmission.html">Transmission Service</a>
                     <a class="dropdown-item" href="cooling.html">Cooling System</a>
                     <a class="dropdown-item" href="brakes.html">Brake Service</a>
                     <a class="dropdown-item" href="exhaust.html">Exhaust</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Get a Quote</a>
+                    <a class="dropdown-item" href="engineReplacement.html">Engine Replacements</a>
                 </div>
             </li>
         </ul>
@@ -52,7 +68,7 @@
 
 <div style="padding-right: 20px; padding-left: 20px; background-color: white" class="container">
     <div class="row">
-        <div class="col lg-12 md-12 sm-12 xs-12">
+        <div class="col-12">
             <div id="tiresjumbo" class="jumbotron">
                 <div class="container">
                     <div class="container" style="border-radius: 10px; background:rgba(256,256,256,0.9);">
@@ -63,19 +79,19 @@
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <div class="card" style="width: 100%; text-align: left ")>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card" style="max-width: 100%; min-height: 350px;">
                 <div class="card-body">
-                    <p class="lead">We sell <i style="color: #9f191f">quality</i> used and new tires for <b style="font-weight: bold; color: rgba(175, 115, 0, 1);">all</b> seasons of the year.</p>
+                    <p class="lead">We sell quality used and new tires for <b style="font-weight: bold; color: rgba(175, 115, 0, 1);">all</b> seasons of the year.</p>
                     <p class="lead">We sell sets and pairs of tires at low and <span style="color: green">affordable</span> prices.</p>
                     <p class="lead">Click the button below to take a look at our <span style="color: #4f2984;">UsedVictoria</span> tire stock!</p>
-                    <a style="background-color: rgba(79,41,132,0.84); float: none; border-color: black" class="btn btn-info btn-lg" href="http://www.usedvictoria.com/p/Bulldogautoworks" role="button">UsedVictoria Tire Stock</a>
+                    <a id="usedVicButton" class="btn btn-info btn-lg" href="http://www.usedvictoria.com/p/Bulldogautoworks" role="button">UsedVictoria Tire Stock</a>
                 </div>
             </div>
             <br>
         </div>
-        <div class="col">
-            <div class="card" style="width: 100%;")>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card" style="max-width: 100%; min-height: 350px;">
                 <div class="card-body">
                     <div class="alert alert-primary">
                         <h3>Looking for tire services?</h3>
@@ -85,7 +101,9 @@
                         <li>Tire Rotation</li>
                         <li>Tire Balencing</li>
                         <li>Tire Mounting and De-Mounting</li>
+                        <li>Rim replacement</li>
                     </ul>
+                    <a class="btn btn-info btn-lg" id="tirebutton" href="tirechange.html" role="button">Tire Services</a>
                 </div>
             </div>
             <br>
@@ -97,8 +115,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col lg-4 md-4 sm-4 xs-12">
-            <div class="card" style="height: 20em; margin-top: 20px;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card tirecard">
                 <img class="tires" src="images/Hankook.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Hankook</h4>
@@ -107,8 +125,8 @@
                 </div>
             </div>
         </div>
-        <div class="col lg-4 md-4 sm-4 xs-12">
-            <div class="card" style="height: 20em; margin-top: 20px;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card tirecard">
                 <img class="tires" src="images/generaltire.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">General Tire</h4>
@@ -117,8 +135,8 @@
                 </div>
             </div>
         </div>
-        <div class="col lg-4 md-4 sm-4 xs-12">
-            <div class="card" style="height: 20em; margin-top: 20px;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card tirecard">
                 <img class="tires" src="images/gt-radial.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">GT Radial</h4>
@@ -130,8 +148,8 @@
     </div>
     <br>
     <div class="row">
-        <div class="col lg-4 md-4 sm-4 xs-12">
-            <div class="card" style="height: 20em; margin-top: 20px;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card tirecard">
                 <img class="tires" src="images/uniroyal.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Uniroyal</h4>
@@ -140,18 +158,18 @@
                 </div>
             </div>
         </div>
-        <div class="col lg-4 md-4 sm-4 xs-12">
-            <div class="card" style="height: 20em; margin-top: 20px;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card tirecard">
                 <img class="tires" src="images/firestone.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">FireStone</h4>
                     <hr>
-                    <p class="card-text">Reaching a destination isn't a one-time thing. With Firestone tires, it's an every-day thing</p>
+                    <p class="card-text">Reaching a destination isn't a one-time thing. With Firestone tires, it's an every-day thing.</p>
                 </div>
             </div>
         </div>
-        <div class="col lg-4 md-4 sm-4 xs-12">
-            <div class="card" style="height: 20em; margin-top: 20px;">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="card tirecard">
                 <img class="tires" src="images/coopertire.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Cooper tire</h4>
@@ -165,19 +183,19 @@
     <hr>
 </div>
 
-<footer style="background-color: #f5f5f5" class="footer fixed-bottom">
-    <div style="background-color: #f5f5f5" class="container">
+<footer class="footer fixed-bottom">
+    <div class="container">
         <div class="row">
             <div class="col-4">
                 <a href="https://www.facebook.com/Bulldog-Autoworks-Ltd-344109025689210/"><i style="color:#3B5998" class="fab fa-facebook-square fa-2x"></i></a>
                 <a href="https://www.facebook.com/Bulldog-Autoworks-Ltd-344109025689210/"><i style="color:#00aced" class="fab fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.facebook.com/Bulldog-Autoworks-Ltd-344109025689210/"><i style="color:#d34836" class="fab fa-google-plus-square fa-2x"></i></a>
+                <a href="http://www.google.com/search?q=Bulldog+Autoworks+Ltd."><i style="color:#d34836" class="fab fa-google-plus-square fa-2x"></i></a>
             </div>
             <div class="col-4">
-                Chris Eddy <i class="far fa-copyright"></i> 2017
+                Bulldog Autoworks Ltd. <i class="far fa-copyright"></i> 2018
             </div>
             <div class="col-4">
-                Alpha v1.0
+                v1.0 |<a href="webdevcontact.html" id="webdev"> Chris</a>
             </div>
         </div>
     </div>
@@ -185,8 +203,8 @@
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>
