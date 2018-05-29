@@ -198,6 +198,11 @@ h5 {
     background-image: url("images/enginereplacement.jpg");
     background-size: cover;
 }
+.tireIcons{
+    border: solid 1px rgba(190,190,190,.35);
+    border-top: 0;
+    border-bottom: 0;
+}
 
 @media screen and (max-width: 575px) {
     .services{
