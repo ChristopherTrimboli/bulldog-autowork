@@ -38,10 +38,10 @@ body {
     width: auto;
 }
 #clickContact:hover{
-    background-color: rgba(0, 123, 255, 0.40);
+    background-color: rgba(55, 179, 255, 0.31);
 }
 #clickContact{
-    background-color: rgba(0, 123, 255, 0.20);
+    background-color: rgba(57, 172, 255, 0.51);
     border-color: #404040;
     border-width: medium;
     margin-right: 15%;

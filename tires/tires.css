@@ -86,7 +86,7 @@ body {
     height: 200px;
     width: 95%;
     align-self: center;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 #logo {
@@ -104,6 +104,10 @@ body {
     width: 100%;
     height: 70px;
     z-index: 1000;
+}
+.alert-primary{
+    border-radius: 50px;
+    color: black;
 }
 .navbar-brand {
     padding-top: 0;
@@ -223,4 +227,9 @@ h5 {
 }
 .tirecard {
     min-height: 380px;
+}
+.list-group-item{
+    background-color: #e9ecef;
+    margin-left: 80px;
+    margin-right: 80px;
 }
