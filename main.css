@@ -93,7 +93,7 @@ body {
     height: 200px;
 }
 .service {
-    width: 90%;
+    width: 70%;
     align-self: center;
     border-radius: 5px;
     height: 100px;
@@ -152,8 +152,7 @@ h5 {
 }
 .dropdown-item:hover {
     background-color: rgba(175, 115, 0, 0.4);
-    border-color: #000000;
-    border-width: thin;
+    border: thin #000000;
     border-radius: 10px;
 }
 .dropdown-item {
