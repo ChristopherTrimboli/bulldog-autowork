@@ -52,11 +52,9 @@ body {
     border-color: #575757;
 }
 .card {
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #e9ecef;
     margin-top: 10px;
-    border-color: #606060;
-
 }
 .card-img-top {
     height: 200px;
@@ -95,8 +93,8 @@ body {
 .service {
     width: 70%;
     align-self: center;
-    border-radius: 5px;
-    height: 100px;
+    border-radius: 50px;
+    height: 120px;
 }
 .tires {
     height: 200px;
