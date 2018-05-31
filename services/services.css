@@ -8,7 +8,7 @@ body {
     margin-top: 70px;
     background-color: rgba(30,30,30,1);
     font-family: Roboto, sans-serif;
-    text-align: center
+    text-align: center;
 }
 #webdev{
     text-decoration: none;
@@ -139,7 +139,7 @@ h5 {
     background-size: cover;
 }
 #enginereplacementJumbo{
-    background-image: url("images/enginereplacement.jpg");
+    background-image: url("../images/enginereplacement.jpg");
     background-size: cover;
 }
 @media screen and (max-width: 800px) {
@@ -191,7 +191,7 @@ h5 {
 }
 @media screen and (max-width: 1150px) and (min-width: 992px) { /* adjuster */
     #logoname {
-        padding-right: 60px
+        padding-right: 60px;
     }
     .dropdown-menu{
         max-height:400px;

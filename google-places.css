@@ -2,8 +2,6 @@
 #google-reviews {
     display:flex;
     flex-wrap:wrap;
-//display: grid;
-//grid-template-columns: repeat( auto-fit, minmax(220px, 1fr));
 }
 .review-item {
     border:solid 1px rgba(190,190,190,.35);
