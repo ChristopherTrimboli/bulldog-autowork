@@ -72,7 +72,7 @@ body {
     padding-bottom: 8px;
 }
 #tiresjumbo{
-    background-image: url("images/tires.jpg");
+    background-image: url("../images/tires.jpg");
     background-size: cover;
     height: 200px;
 }
@@ -217,4 +217,10 @@ h5 {
     .nav-item{
         max-width: 128px;
     }
+}
+.card {
+    min-height: 250px;
+}
+.tirecard {
+    min-height: 380px;
 }
