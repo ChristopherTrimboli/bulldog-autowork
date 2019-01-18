@@ -12,9 +12,6 @@
     padding:1em;
     flex: 1 1 20%;
 }
-.review-item:hover {
-    background-color: rgba(0, 123, 255, 0.25);
-}
 @media ( max-width:1200px) {
     .review-item {
         flex: 1 1 40%;
